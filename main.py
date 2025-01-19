@@ -25,7 +25,5 @@ def main():
 
     library.view_inventory()
 
-
-    print(f"{admin.id}")
 if __name__ == '__main__':
     main()
