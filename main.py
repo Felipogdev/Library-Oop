@@ -1,7 +1,7 @@
-from bookclass import Book
-from userclass import User
-from adminclass import Admin
-from libraryclass import Library
+from book import Book
+from user import User
+from admin import Admin
+from library import Library
 
 def main():
     library = Library()
@@ -25,5 +25,7 @@ def main():
 
     library.view_inventory()
 
+
+    print(f"{admin.id}")
 if __name__ == '__main__':
     main()

@@ -1,5 +1,5 @@
-from bookclass import Book
-from libraryclass import Library
+from book import Book
+from library import Library
 
 class Admin:
     def __init__(self, name: str):
